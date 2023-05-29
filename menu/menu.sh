@@ -138,6 +138,9 @@ export UNDERLINE="\e[4m"
 total_ram=` grep "MemTotal: " /proc/meminfo | awk '{ print $2}'`
 totalram=$(($total_ram/1024))
 
+#persencpu=
+persencpu="$(echo "scale=2; $cpu1+$cpu2" | bc)"
+
 # // Clear
 clear
 clear && clear && clear
@@ -248,6 +251,7 @@ echo -e "□ Current Time        = ${GREEN}$( date -d "0 days" +"%d-%m-%Y | %X" 
 echo -e "□ Operating System    = ${GREEN}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
 echo -e "□ Current Domain      = ${GREEN}$( cat /etc/xray/domain )${NC}"
 echo -e "□ Jumlah Ram          = ${GREEN}${totalram}MB"
+echo -e "□ Server Resource     = RAM = $persenmemori% | CPU = $persencpu%"
 echo -e "□ Clients Name        = ${GREEN}$Name${NC}"
 echo -e "□ Expired Script VPS  = ${GREEN}$Exp${NC}"
 echo -e "□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"

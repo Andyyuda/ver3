@@ -138,6 +138,13 @@ export UNDERLINE="\e[4m"
 total_ram=` grep "MemTotal: " /proc/meminfo | awk '{ print $2}'`
 totalram=$(($total_ram/1024))
 
+fi
+tomem="$(free | awk '{print $2}' | head -2 | tail -n 1 )"
+usmem="$(free | awk '{print $3}' | head -2 | tail -n 1 )"
+cpu1="$(mpstat | awk '{print $4}' | head -4 |tail -n 1)"
+cpu2="$(mpstat | awk '{print $6}' | head -4 |tail -n 1)"
+
+persenmemori="$(echo "scale=2; $usmem*100/$tomem" | bc)"
 #persencpu=
 persencpu="$(echo "scale=2; $cpu1+$cpu2" | bc)"
 

@@ -168,7 +168,7 @@ wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && ch
 wget https://raw.githubusercontent.com/Andyyuda/ver3/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
-#Instal Xray
+#Instal UDP
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install SSH UDP              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"

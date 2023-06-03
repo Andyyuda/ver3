@@ -167,15 +167,6 @@ clear
 wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/Andyyuda/ver3/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
-
-#Instal UDP
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install SSH UDP              $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 2
-clear
-wget "https://raw.githubusercontent.com/Andyyuda/UDP-Custom-Installer-Manager/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
-clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 

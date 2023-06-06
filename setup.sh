@@ -168,6 +168,15 @@ wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && ch
 wget https://raw.githubusercontent.com/artanodrop/v4/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
+#Instal slowdns
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green          Install SLDNS              $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+clear
+
 #Instal udp
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install UDP              $NC"

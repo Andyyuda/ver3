@@ -154,7 +154,7 @@ wget https://raw.githubusercontent.com/Andyyuda/ver3/main/ssh/ssh-vpn.sh && chmo
 ### Pasang Rclone
 function pasang_backup() {
     judge "Memasang backup server"
-    wget https://raw.githubusercontent.com/AndyyudaVPN/xray-ws/main/backup/set-br.sh
+    wget https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/set-br.sh
 bash set-br.sh >/dev/null 2>&1
     print_success "backup server"
 }

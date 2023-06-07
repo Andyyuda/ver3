@@ -263,7 +263,7 @@ echo -e "${BIYellow}□ Server Resource     = $uram / $tram"
 echo -e "${BIYellow}□ Clients Name        = ${GREEN}$Name${NC}"
 echo -e "${BIYellow}□ Expired Script VPS  = ${GREEN}$Exp${NC}"
 echo -e "${BIYellow}□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"
-echo -e "${BIYellow}□ License Limit       = 3 VPS ${GREEN}( Persatu IP VPS )${NC}"
+echo -e "${BIYellow}□ License Limit       = ORDER ${GREEN}( 082131861788 )${NC}"
 echo -e "${BIYellow}□ AutoScript By Dev   = Wak ${GREEN}( AndyYuda )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"

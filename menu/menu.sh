@@ -295,7 +295,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e " ${BICyan}│  Version      ${NC} : v3. Last Update"
 echo -e " ${BICyan}│  User       ${NC}   :\033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  Expiry script${NC} : ${BIYellow}$Exp${NC} Days"
+echo -e " ${BICyan}│  Expiry script${NC} : $sisa_hari Days"
 echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt

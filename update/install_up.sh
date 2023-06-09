@@ -13,6 +13,7 @@ wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/artanodrop/dxavi
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
+wget https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit

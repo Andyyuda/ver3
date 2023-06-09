@@ -12,17 +12,6 @@ wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/artanodrop/dx
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set
-#wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-theme.sh" && chmod +x /usr/bin/menu-theme
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
-#wget -q -O /usr/bin/menu-ip "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-ip.sh" && chmod +x /usr/bin/menu-ip
-#wget -q -O /usr/bin/menu-tor "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-tor.sh" && chmod +x /usr/bin/menu-tor
-#wget -q -O /usr/bin/autoboot "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/autoboot.sh" && chmod +x /usr/bin/autoboot
-#wget -q -O /usr/bin/menu-tcp "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-tcp.sh" && chmod +x /usr/bin/menu-tcp
-#wget -q -O /usr/bin/rebootvps "https://raw.githubusercontent.com/artanodrop/dxavier/main/corn/rebootvps.sh" && chmod +x /usr/bin/rebootvps
-#wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-dns.sh" && chmod +x /usr/bin/menu-dns
-#wget -q -O /usr/bin/info "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/info.sh" && chmod +x /usr/bin/info
-#wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
-#wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit

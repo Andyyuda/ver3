@@ -332,6 +332,7 @@ chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
 chmod +x fix
+chmod +x up
 
 chmod +x menu-ssh
 chmod +x usernew

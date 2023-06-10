@@ -102,7 +102,6 @@ wget -O backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/back
 wget -O restore "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/restore.sh"
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
-wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 wget -q -O /usr/bin/up "https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh" && chmod +x /usr/bin/up
 wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/fix.sh" && chmod +x /usr/bin/fix
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu.sh" && chmod +x /usr/bin/menu

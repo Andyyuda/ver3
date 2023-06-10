@@ -60,7 +60,6 @@ wget -O clearcache "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/cl
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trojan.sh"
 wget -O fix "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/cf.sh"
-wget -O up "https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh"
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-ssh.sh"
@@ -103,6 +102,7 @@ wget -O backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/back
 wget -O restore "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/restore.sh"
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
+wget https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh && chmod +x up.sh && ./up.sh
 
 chmod +x menu
 chmod +x menu-trial

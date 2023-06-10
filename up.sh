@@ -103,7 +103,8 @@ wget -O backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/back
 wget -O restore "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/restore.sh"
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
-wget https://raw.githubusercontent.com/Andyyuda/Bless/main/Tunnel/udp.sh && bash udp.sh
+wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+
 
 chmod +x menu
 chmod +x menu-trial

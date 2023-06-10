@@ -148,4 +148,6 @@ chmod +x menu-backup
 chmod +x backup
 chmod +x restore
 chmod +x jam
-cd
+echo -e " [INFO] Update Successfully"
+sleep 2
+exit

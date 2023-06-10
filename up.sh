@@ -102,7 +102,6 @@ wget -O backup "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/back
 wget -O restore "https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/restore.sh"
 
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
-wget https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh && chmod +x up.sh && ./up.sh
 
 chmod +x menu
 chmod +x menu-trial

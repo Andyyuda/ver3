@@ -48,6 +48,7 @@ rm -rf restore
 rm -rf jam
 rm -rf up
 rm -rf genssl
+rm -rf slow
 # download script
 cd /usr/bin
 # menu
@@ -61,6 +62,7 @@ wget -O clearcache "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/cl
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trojan.sh"
 wget -O cf "https://raw.githubusercontent.com/Andyyuda/ver3/main/cf.sh"
+wget -O slow "https://raw.githubusercontent.com/Andyyuda/ver3/main/slow.sh"
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-ssh.sh"
@@ -118,6 +120,7 @@ chmod +x menu-trojan
 chmod +x fix
 chmod +x up
 
+chmod +x slow
 chmod +x menu-ssh
 chmod +x usernew
 chmod +x trial

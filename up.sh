@@ -52,7 +52,7 @@ rm -rf genssl
 cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu.sh"
-wget -O genssl "https://raw.githubusercontent.com/Andyyuda/ver3/main/genssl.sh"
+wget -O genssl "https://raw.githubusercontent.com/Andyyuda/ver3/main/ssh/genssl.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-vless.sh"

@@ -47,11 +47,12 @@ rm -rf backup
 rm -rf restore
 rm -rf jam
 rm -rf up
-
+rm -rf genssl
 # download script
 cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu.sh"
+wget -O genssl "https://raw.githubusercontent.com/Andyyuda/ver3/main/genssl.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-vless.sh"
@@ -128,7 +129,7 @@ chmod +x delete
 chmod +x autokill
 chmod +x ceklim
 chmod +x tendang
-
+chmod +x genssl
 chmod +x menu-set
 chmod +x menu-domain
 chmod +x add-host

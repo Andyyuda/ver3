@@ -11,7 +11,7 @@ slkey=$(cat /etc/slowdns/server.pub)
 clear
 cekray=`cat /root/log-install.txt | grep -ow "XRAY" | sort | uniq`
 if [ "$cekray" = "XRAY" ]; then
-domen=$(cat /etc/xray/domain)
+domen=`cat /etc/xray/domain`
 else
 domen=`cat /etc/v2ray/domain`
 fi

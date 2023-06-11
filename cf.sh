@@ -3,12 +3,26 @@
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
+apt install update && apt upgrade -y
 apt install jq curl -y
-sub=$(</dev/urandom tr -dc a-z | head -c4)
-DOMAIN=remoot.my.id
-SUB_DOMAIN=${sub}.remoot.my.id
-CF_ID=arismar.amar@gmail.com
-CF_KEY=f7fa85e2472592639b7d1cf82f1c5490ec1cd
+#sub=$(</dev/urandom tr -dc a-z | head -c4)
+clear
+echo -e ""
+echo -e "jangan karakter singkat seperti: sg, id, hk,"
+echo -e "kalau bisa 1 kata yang unik dengan dikombinasikan dengan angka"
+echo -e "contoh: resa11"
+echo -e ""
+echo -e "\e[32msubdomain\e[0m.andriwrt.me"
+read -p "Mau subdomain apa?( 1kata ) : " sub
+if [[ $sub == "" ]]; then
+clear
+echo -e "${EROR} No Input Detected !"
+exit 1
+fi
+DOMAIN=andriwrt.me
+SUB_DOMAIN=${sub}.andriwrt.me
+CF_ID=razertech52@gmail.com
+CF_KEY=8b0683c1ff3f6eed8dc32a70dfd2c02c80e9f
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
@@ -37,14 +51,11 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      --data '{"type":"A","name":"'${SUB_DOMAIN}'","content":"'${IP}'","ttl":120,"proxied":false}')
      
 echo "Host : $SUB_DOMAIN"
-echo $SUB_DOMAIN > /root/domain
-echo "IP=$SUB_DOMAIN" > /var/lib/scrz-prem/ipvps.conf
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "Domain added.."
 sleep 3
-domain=$(cat /root/domain)
-cp -r /root/domain /etc/xray/domain
-read -n 1 -s -r -p "Press any key to back on genssl"
-
-genssl 
+echo -e ""
+echo -e "subdomainmu telah jadi yaitu: $SUB_DOMAIN"
+echo -e "SILAKAN RENEW DOMAIN"
+cd

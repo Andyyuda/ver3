@@ -13,7 +13,7 @@ rm -rf running
 rm -rf clearcache
 rm -rf menu-trgo
 rm -rf menu-trojan
-rm -rf fix
+rm -rf cf
 rm -rf menu-ssh
 rm -rf usernew
 rm -rf trial

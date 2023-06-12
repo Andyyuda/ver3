@@ -9,6 +9,7 @@ rm -rf menu
 rm -rf menu-trial
 rm -rf menu-vmess
 rm -rf menu-vless
+rm -rf add-vless
 rm -rf running
 rm -rf clearcache
 rm -rf menu-trgo
@@ -54,6 +55,7 @@ rm -rf slow
 cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu.sh"
+wget -O add-vless "https://raw.githubusercontent.com/Andyyuda/ver3/main/add-vless.sh"
 wget -O genssl "https://raw.githubusercontent.com/Andyyuda/ver3/main/ssh/genssl.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-vmess.sh"
@@ -119,6 +121,7 @@ chmod +x running
 chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
+chmod +x add-vless
 chmod +x fix
 chmod +x up
 

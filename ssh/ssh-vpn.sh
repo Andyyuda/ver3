@@ -313,7 +313,7 @@ wget -O port-ovpn "https://raw.githubusercontent.com/artanodrop/v4/main/port/por
 
 
 wget -O xp "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/xp.sh"
-wget -O acs-set "https://raw.githubusercontent.com/artanodrop/v4/main/acs-set.sh"
+wget -O acs-set "https://raw.githubusercontent.com/Andyyuda/ver3/main/acs-set.sh"
 
 wget -O sshws "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/sshws.sh"
 wget -O status "https://raw.githubusercontent.com/artanodrop/v4/main/status.sh"

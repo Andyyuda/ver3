@@ -299,7 +299,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}] DOMAIN FREE${NC} "
 echo -e "     ${BICyan}[${BIWhite}12${BICyan}] UPDATE MENU${NC} "
 echo -e "     ${BICyan}[${BIWhite}13${BICyan}] INSTAL UDP${NC} "
-echo -e "     ${BICyan}[${BIWhite}13${BICyan}] GANTI NS DOMAIN${NC} "
+echo -e "     ${BICyan}[${BIWhite}14${BICyan}] GANTI NS DOMAIN${NC} "
 echo -e "     ${BICyan}[${BIWhite}99${BICyan}] CLEAR SAMPAH${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"

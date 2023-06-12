@@ -45,6 +45,7 @@ rm -rf status
 rm -rf menu-backup
 rm -rf backup
 rm -rf restore
+rm -rf instal-udp
 rm -rf jam
 rm -rf up
 rm -rf genssl
@@ -122,6 +123,7 @@ chmod +x up
 
 chmod +x slow
 chmod +x menu-ssh
+chmod +x instal-udp
 chmod +x usernew
 chmod +x trial
 chmod +x renew

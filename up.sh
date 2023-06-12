@@ -63,6 +63,7 @@ wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/men
 wget -O menu-trojan "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-trojan.sh"
 wget -O cf "https://raw.githubusercontent.com/Andyyuda/ver3/main/cf.sh"
 wget -O slow "https://raw.githubusercontent.com/Andyyuda/ver3/main/slow.sh"
+wget -O instal-udp "https://raw.githubusercontent.com/Andyyuda/ver3/main/instal-udp.sh"
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu-ssh.sh"

@@ -5,6 +5,7 @@ biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 echo -e " [INFO] Downloading Update File"
 sleep 2
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Andyyuda/ver3/main/menu/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/Andyyuda/ver3/main/ssh/usernew.sh" && chmod +x /usr/bin/usernew
 wget -q -O /usr/bin/genssl "https://raw.githubusercontent.com/Andyyuda/ver3/main/ssh/genssl.sh" && chmod +x /usr/bin/genssl
 wget -q -O /usr/bin/up "https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh" && chmod +x /usr/bin/up
 wget -q -O /usr/bin/cf "https://raw.githubusercontent.com/Andyyuda/ver3/main/cf.sh" && chmod +x /usr/bin/cf

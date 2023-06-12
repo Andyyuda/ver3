@@ -325,7 +325,7 @@ case $opt in
 10) clear ; jam ;;
 11) clear ; cf ;;
 12) clear ; up ;;
-12) clear ; instal-udp ;;
+13) clear ; instal-udp ;;
 14) clear ; slow ;;
 99) clear ; clearcache ;;
 6969) clear ; wget https://raw.githubusercontent.com/Andyyuda/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
